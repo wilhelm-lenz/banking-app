@@ -1,0 +1,77 @@
+.section-payments {
+  background-color: #1b1b1b;
+  margin-top: 4rem;
+  border: 2px solid #22403a;
+  border-radius: 0.8rem;
+  padding: 2rem 4%;
+  max-width: 100%;
+}
+
+.heading-secondary {
+  text-align: center;
+  padding: 3.2rem 8rem;
+  font-family: "OpenSans-Medium";
+  font-size: 2.8rem;
+}
+
+.account-balance {
+  text-align: center;
+  font-size: 4.4rem;
+  background-color: #22403a;
+  max-width: 100%;
+  margin: 0 auto 4rem;
+  border-radius: 0.8rem;
+  padding-block: 1rem;
+  padding-inline: 4%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.input-money {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 2.4rem;
+  padding-block: 0.8rem;
+  border-radius: 1.6rem;
+  background-color: transparent;
+  border: 2px solid #22403a;
+  color: #eeeeee;
+}
+
+.input-money:focus {
+  outline: none;
+}
+
+.pay-btns-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.4rem;
+  padding-block: 3.2rem;
+}
+
+.btn {
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.8rem;
+  background-color: #22403a;
+  color: #eeeeee;
+  border: none;
+  transition: all 0.2s linear;
+  width: auto;
+  flex-grow: 1;
+}
+
+.btn:hover {
+  background-color: #0a594980;
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 10px 0 #0a5949;
+  flex-grow: 1;
+}
+
+.btn:active {
+  background-color: #0a5949;
+  transform: translateY(1px);
+  box-shadow: 2px 2px 10px 0 rgba(237, 237, 237, 0.4);
+}

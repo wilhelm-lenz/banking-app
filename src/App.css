@@ -1,0 +1,39 @@
+/* 
+colors:
+  accent: #22403a
+  bg-color: #121212
+  highlighting: #1b1b1b
+  input-background: #3b3b3b
+  text: #eeeeee 
+*/
+
+@font-face {
+  font-family: "OpenSans-Medium";
+  src: url("./assets/fonts/OpenSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("./assets/fonts/OpenSans-Regular.ttf");
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: "OpenSans-Regular";
+  background-color: #121212;
+  color: #eeeeee;
+}
